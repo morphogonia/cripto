@@ -1,0 +1,234 @@
+/* ---
+Name: Cripto
+Version: Beta
+Author: sandrax @ http://bulabe.com
+URL: http://cripto.com.mx
+--- */
+
+.navbar-inverse-sub {
+    background-color: #cecece;
+    border: medium none;
+    z-index: 990;
+}
+
+h2.icon {
+	font-size: 28px;
+}
+
+.calltoaction {
+    border-radius: 6px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    line-height: 1.42857;
+    padding: 8px 16px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+	display: block;	
+	background-color: #dc1c1c;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.calltoaction:hover {
+	background-color: #001b3b;
+	color: #fff;
+	-webkit-transition: background-color 0.2s linear 0s;
+	-moz-transition: background-color 0.2s linear 0s;
+	-o-transition: background-color 0.2s linear 0s;      
+	transition: background-color 0.2s linear 0s;
+}	
+
+.box-registro {
+	background-color: #99ccff;
+	padding: 10px 30px 30px 30px;
+	border-radius: 12px;
+}
+
+.blues {
+	background-color: #99ccff;
+	text-align: center;
+	padding: 0 0 30px 0;
+}
+
+.blues p {
+	font-size: 28px;
+}
+
+.benefit h3 {
+	margin: 16px 0;
+}
+
+.cliente {
+	background-color: #dcdcdc;
+	margin: 10px 0;
+}
+
+/* Material Design Icons */
+
+.mdi::before {
+	font-size: 42px;
+}
+
+.steps .mdi::before {
+	font-size: 44px;
+}
+
+.icon .mdi::before {
+	font-size: 24px;
+	margin-right: 6px;
+}
+
+.steps p {
+	margin: 14px 0 0 0;
+}
+
+.navbar-inverse .sub-nav > li > a {
+	padding: 0 15px;
+}
+
+.navbar-inverse .sub-nav > li > a > .mdi::before {
+	font-size: 36px;
+}
+
+
+/* -- FOOTER -- */
+
+footer {
+	width: 100%;
+	padding: 30px 0 60px 0;
+	background-image: url('../images/bgds/noisy-d.png');
+	background-attachment: fixed;
+	background-color: #d2d2d2;
+	position: relative;
+}
+
+footer .legend {
+	background-color: #00bcf2;
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	margin: 0 0 0 -140px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 8px 12px;
+	border-radius: 6px;
+}
+
+footer h3 {
+	font-size: 18px;
+}
+
+footer button {
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.3333333;
+	letter-spacing: 1px;
+	border-radius: 6px;
+	color: #fff;
+	background-color: #00183c;
+	border: none;
+	font-size: 13px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+footer button:hover, footer button:focus {
+	background-color: #1ba8f5;
+	-webkit-transition: background-color 0.2s linear 0s;
+	-moz-transition: background-color 0.2s linear 0s;
+	-o-transition: background-color 0.2s linear 0s;      
+	transition: background-color 0.2s linear 0s;
+}
+
+footer li {
+	font-size: 18px;
+}
+
+ul#socialmedia {
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+ul#socialmedia li a:link, ul#socialmedia li a:visited, ul#socialmedia li a:active {
+	display: block;
+	width: 55px;
+	height: 55px;
+	overflow: hidden;
+	text-indent: 120%;
+	background-image: url('../images/Socialmedia.png');
+	background-repeat: no-repeat;
+	float: left;
+	margin: 0 16px 0 0;
+}
+
+ul#socialmedia li a#tw:link, ul#socialmedia li a#tw:visited, ul#socialmedia li a#tw:active {
+	background-position: -68px 0;
+}
+
+ul#socialmedia li a#tw:hover {
+	background-position: -68px -56px;
+}
+
+ul#socialmedia li a#fb:hover {
+	background-position: 0 -56px;
+}
+
+
+.mt10 {
+	margin-top: 10px;
+}
+
+.mt20 {
+	margin-top: 20px;
+}
+
+.mt30 {
+	margin-top: 30px;
+}
+
+.mt50 {
+	margin-top: 50px;
+}
+
+.mr10 {
+	margin-right: 10px;
+}
+
+.mr40 {
+	margin-right: 40px;
+}
+
+.mr120 {
+	margin-right: 220px;
+}
+
+.mb20 {
+	margin-bottom: 20px;
+}
+
+.mb30 {
+	margin-bottom: 30px;
+}
+
+.mb50 {
+	margin-bottom: 50px;
+}
+
+.ml10 {
+	margin-left: 20px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+
+

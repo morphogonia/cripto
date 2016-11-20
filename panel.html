@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="Cripto Team">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Cripto | Tus documentos en la nube</title>
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+  	<link href="css/cripto.style.css" rel="stylesheet">
+    <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">        
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Cripto</a>
+        </div>
+        
+        <div id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav sub-nav">
+				
+				<li class="dropdown active mr120">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+						<i class="mdi mdi-account"></i> [NOMBRE DE USUARIO]</a>
+						<ul class="dropdown-menu">
+            			<li><a href="#">Configurar Perfil</a></li>
+            			<li><a href="#">Recuperar Token</a></li>
+            			<li><a href="#">Cerrar Sesión</a></li> 
+          			</ul>
+				</li>
+				<li>
+				<a href="#" data-toggle="tooltip" data-placement="bottom" title="Mi Panel">
+					<i class="mdi mdi-home"></i>
+					
+				</a></li>
+
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					<i class="mdi mdi-comment-account-outline"></i></a>
+					<ul class="dropdown-menu">
+            			<li><a href="#">FAQ</a></li>
+            			<li><a href="#">Soporte técnico</a></li>
+          			</ul>
+				</li>
+				<li><a href="#" data-toggle="tooltip" data-placement="bottom" title="Desbloquear"><i class="mdi mdi-lock"></i></a></li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+<div class="jumbotron-b">
+	<div class="container">
+		<div class="col-md-12">
+		
+        <h1>Bienvenido a tu panel de control</h1>
+        <div class="row">
+			<div class="col-md-9">
+				<p>Como medida de seguridad para poder ejecutar las tareas críticas, como dar de alta una empresa o un colaborador, requieres un token de seguridad administrado por Google Authenticator.</p>
+				<p>Para obtenerlo deberás instalar una aplicación en tu teléfono o dispositivo inteligente<br/> y configurar tu cuenta.</p>
+				<p>A continuación te guiamos paso a paso en el proceso.</p>
+			</div>
+		</div>
+        
+        
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#paso-1">Google Authenticator</a></li>
+			<li><a href="#paso-2">Activa tu cuenta</a></li>
+			<li><a href="#paso-3">Identifica tu token</a></li>
+		</ul>
+        
+		<div class="tab-content">
+			
+			<div id="paso-1" class="tab-pane fade in active">
+				<h3>Instala la aplicación Google Authenticator</h3>
+				<p>Si dispones de un dispositivo con  sistema Android, <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2" target="_blank">accede a Google Play</a>. Si tienes un iPhone o iPad <a href="https://itunes.apple.com/mx/app/google-authenticator/id388497605?mt=8" target="_blank">entra a la App Store</a>. Busca "Google Authenticator" y descarga la aplicación.</p>
+				<img src="images/gauthenticator-1.gif" class="mb20"/>
+		<p><a href="https://play.google.com/store/apps/details?id=com.google.android.apps.authenticator2" target="_blank">Esta es la liga directa a Google Authenticator en Google Play</a>.
+			<br/><a href="https://itunes.apple.com/mx/app/google-authenticator/id388497605?mt=8" target="_blank">Esta es la liga directa en la App Store</a>.</p>
+				<a href="#" class="btn btn-info">Siguiente</a>
+			</div>
+
+
+
+
+
+
+			<div id="paso-2" class="tab-pane fade">
+				<h3>Activa tu cuenta</h3>
+				<p>Abre tu aplicación y selecciona la opción de Agregar una cuenta nueva.</p>
+				<p>Ingresa esta clave: X0X0X0X0</p>
+				<p>La clave para agregar tu cuenta es única e irrepetible. Esta configuración sólo es necesario ejecutarla una vez.</p>
+				<a href="#" class="btn btn-info">Siguiente</a>
+			</div>
+
+
+
+
+			<div id="paso-3" class="tab-pane fade">
+				<h3>Identifica tu token</h3>
+				<p>Finalmente, ya que agregaste tu cuenta puedes consultar tu token de seguridad cada vez que lo necesites. No es necesario que repitas todo el proceso. El token cambia cada determinado tiempo, por lo que cada vez que quieras utilizarlo debes tomarlo directamente desde la aplicación.</p>
+				<img src="images/gauthenticator-2.gif" class="mb20"/>
+				<p><a href="#" class="btn btn-info">Listo. Ya configuré mi Google Authenticator.</a></p>
+			</div>
+		</div>
+
+        
+		</div>
+	</div>
+</div><!-- / jumbotron, container, col -->
+
+
+
+
+	<div class="container">
+		<h2 class="icon mb20"><i class="mdi mdi-lock"></i>Desbloquear</h2>
+		<div class="row mt30 mb30">
+		<div class="col-md-5">
+          <form role="form" class="mt20">
+          <div class="form-group">
+            <label for="email">Ingresa el token de tu Google Authenticator</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <button type="submit" class="calltoaction">Desbloquear</button>
+        </form>
+		</div>		
+		</div>		
+    </div>
+
+
+	<div class="jumbotron-b">
+		<div class="container">
+      		<h2 class="icon mb20"><i class="mdi mdi-bell-ring-outline" data-name="mdi-bell-ring-outline"></i>Tus alertas</h2>
+      		
+      		<div class="row mt30">
+			<div class="col-md-12">
+			<table class="table">
+			<tbody>
+				<tr class="info">
+					<td>Alerta vencida</td>
+					<td>Fecha dd/mm/yy</td>
+				</tr>
+				<tr class="danger">
+					<td>Alerta por vencer</td>
+					<td>Fecha dd/mm/yy</td>
+				</tr>     
+				<tr class="info">
+					<td>Alerta vencida</td>
+					<td>Fecha dd/mm/yy</td>
+				</tr>
+				<tr class="info">
+					<td>Alerta vencida</td>
+					<td>Fecha dd/mm/yy</td>
+				</tr>     
+				<tr class="info">
+					<td>Alerta vencida</td>
+					<td>Fecha dd/mm/yy</td>
+				</tr>
+			</tbody>
+			</table>
+     		</div>		
+			</div>
+		
+		</div> <!-- /container -->
+	</div>
+
+
+
+	<div class="container">
+		<h2 class="icon mb20"><i class="mdi mdi-clipboard-text" data-name="mdi-clipboard-text"></i>Bitácora de actividades</h2>
+		<div class="row mt30 mb30">
+		<div class="col-md-12">
+			<table class="table table-striped">
+			<tbody>
+				<tr>
+					<td>Praesent elementum bibendum placerat. Aenean malesuada enim nec libero finibus, eu condimentum ex tincidunt.</td>
+				</tr>
+				<tr>
+					<td>Praesent elementum bibendum placerat. Aenean malesuada enim nec libero finibus, eu condimentum ex tincidunt.</td>
+				</tr>
+				<tr>
+					<td>Praesent elementum bibendum placerat. Aenean malesuada enim nec libero finibus, eu condimentum ex tincidunt.</td>
+				</tr>
+				<tr>
+					<td>Praesent elementum bibendum placerat. Aenean malesuada enim nec libero finibus, eu condimentum ex tincidunt.</td>
+				</tr>
+				<tr>
+					<td>Praesent elementum bibendum placerat. Aenean malesuada enim nec libero finibus, eu condimentum ex tincidunt.</td>
+				</tr>
+				<tr>
+					<td>Praesent elementum bibendum placerat. Aenean malesuada enim nec libero finibus, eu condimentum ex tincidunt.</td>
+				</tr>		
+			</tbody>
+			</table>
+      		</div>		
+			</div> 
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+<!--<span class="legend">Inteligencia Cripto en la nube</span>-->
+<div class="container">
+	<div class="col-md-7 mt20">
+		<ul>
+			<li><a href="#" target="_self">Acerca de nosotros</a></li>
+			<li><a href="#" target="_self">Preguntas Frecuentes</a></li>
+		</ul>
+		
+    <ul id="socialmedia">
+      <li><a href="#" target="_self" id="fb">Facebook</a></li>
+      <li><a href="#" target="_self" id="tw">Twitter</a></li>
+      <div class="clearfix"></div>
+    </ul>
+
+		<p>Contacto: dirección y teléfono | <a href="mailto:" target="_self">contacto@cripto.mx</a></p>
+		<p><a href="#" target="_self">Aviso de Privacidad</a> | Todos los derechos reservados &copy; CRIPTO 2015</p>
+		<p></p>
+		
+	</div>
+	<div class="col-md-5">
+		<h3>Suscríbete para recibir noticias y actualizaciones</h3>
+		<form role="form" class="mt20">
+          <div class="form-group">
+            <label for="name">Nombre:</label>
+            <input type="input" class="form-control" id="nombre">
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+          <button type="submit">Suscribirme</button>
+        </form>
+	</div>
+</div>
+</footer>
+      
+      
+      
+
+<!-- Bootstrap core JavaScript
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+
+$('.nav-tabs a').click(function(){
+    $(this).tab('show');
+});
+
+});
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
